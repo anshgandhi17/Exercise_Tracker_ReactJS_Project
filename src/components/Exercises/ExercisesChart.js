@@ -20,7 +20,7 @@ const ExercisesChart = props => {
 
     for(const exercise of props.exercises){
         const exerciseMonth = exercise.date.getMonth();
-        chartDataPoints[exerciseMonth].value += exercise.amount;
+        chartDataPoints[exerciseMonth].value += exercise.time;
     }
     return <Chart dataPoints={chartDataPoints} />
 
