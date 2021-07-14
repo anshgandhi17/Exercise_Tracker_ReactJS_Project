@@ -1,0 +1,32 @@
+.new-exercise__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .new-exercise__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+    text-align: center;
+  }
+  
+  .new-exercise__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  .new-exercise__actions {
+    text-align: right;
+  }
+
+ 
+
+  
